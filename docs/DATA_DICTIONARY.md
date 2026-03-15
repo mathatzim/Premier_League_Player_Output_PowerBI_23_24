@@ -1,0 +1,64 @@
+# Data dictionary (pl_23-24.csv)
+
+- Rows: **1016**
+- Columns: **53**
+- Position categories: Midfielder (340), Defender (321), Forward (227), Goalkeeper (128)
+
+## Columns
+- `Name`
+- `Position`
+- `Appearances`
+- `Clean sheets`
+- `Goals Conceded`
+- `Tackles`
+- `Tackle success %`
+- `Last man tackles`
+- `Blocked shots`
+- `Interceptions`
+- `Clearances`
+- `Headed Clearance`
+- `Clearances off line`
+- `Recoveries`
+- `Duels won`
+- `Duels lost`
+- `Successful 50/50s`
+- `Aerial battles won`
+- `Aerial battles lost`
+- `Own goals`
+- `Errors leading to goal`
+- `Assists`
+- `Passes`
+- `Passes per match`
+- `Big Chances Created`
+- `Crosses`
+- `Cross accuracy %`
+- `Through balls`
+- `Accurate long balls`
+- `Yellow cards`
+- `Red cards`
+- `Fouls`
+- `Offsides`
+- `Goals`
+- `Headed goals`
+- `Goals with right foot`
+- `Goals with left foot`
+- `Hit woodwork`
+- `Goals per match`
+- `Penalties scored`
+- `Freekicks scored`
+- `Shots`
+- `Shots on target`
+- `Shooting accuracy %`
+- `Big chances missed`
+- `Saves`
+- `Penalties Saved`
+- `Punches`
+- `High Claims`
+- `Catches`
+- `Sweeper clearances`
+- `Throw outs`
+- `Goal Kicks`
+
+## Notes
+- The source file contains **season totals**. Per-game metrics used in the report (e.g., Goals/Game) are calculated in Power BI as `DIVIDE([Total], [Appearances])`.
+- Many players have low or zero appearances; the report uses an **Appearances threshold** filter when comparing players.
