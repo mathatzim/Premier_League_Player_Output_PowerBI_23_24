@@ -31,7 +31,7 @@ Measure notes and patterns are documented in: **`docs/DAX_MEASURES.md`**.
 - `reports/PL_Analysis.pbix` — Power BI report
 - `data/pl_23-24.csv` — dataset
 - `docs/` — data dictionary + DAX notes
-- `outputs/screenshots/` — optional page screenshots (useful for quick preview in GitHub)
+- `outputs/screenshots/` —  page screenshots 
 
 ## Notes
 - Some pages apply minimum-appearance filtering to reduce noise from very small samples.
