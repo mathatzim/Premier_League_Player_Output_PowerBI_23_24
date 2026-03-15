@@ -1,0 +1,12 @@
+# Power BI
+*.pbix.tmp
+*.pbit.tmp
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Outputs
+outputs/private/
